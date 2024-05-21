@@ -40,8 +40,8 @@ export default function Home() {
         <div className="text-center mb-24 lg:mb-0">
           <h1 className="text-4xl lg:text-5xl font-extrabold">RIP-7560</h1>
           <div className="max-w-md lg:max-w-3xl">
-          <h2 className="mt-4 text-s lg:text-2xl text-gray-700 dark:text-gray-300">
-            An account abstraction proposal that introduces consensus-layer protocol changes, instead of relying on higher-layer infrastructure
+          <h2 className="mt-4 text-s lg:text-3xl text-gray-700 dark:text-gray-300">
+            An account abstraction proposal based on ERC-4337 that introduces consensus-layer protocol changes, instead of relying on higher-layer infrastructure
             </h2>
           </div>
         </div>
@@ -112,7 +112,7 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Learn about ERC-4337, the predecessor to RIP-7560
+            Learn about ERC-4337 and account abstraction
           </p>
         </a>
       </div>
