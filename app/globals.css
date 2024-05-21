@@ -1,3 +1,5 @@
+/* globals.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,6 +16,24 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+
+  .logo-light {
+    display: none;
+  }
+
+  .logo-dark {
+    display: block;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .logo-light {
+    display: block;
+  }
+
+  .logo-dark {
+    display: none;
+  }
 }
 
 body {
@@ -24,6 +44,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  transition: background 0.5s;
 }
 
 @layer utilities {
