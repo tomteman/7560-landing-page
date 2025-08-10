@@ -39,7 +39,6 @@ This site is designed to be deployed to GitHub Pages. See `MIGRATION_GUIDE.md` f
 │   └── ERC-4337-team-logo-color-light.svg
 ├── .github/workflows/      # GitHub Actions deployment
 │   └── deploy.yml
-├── MIGRATION_GUIDE.md      # Deployment instructions
 └── README.md              # This file
 ```
 
